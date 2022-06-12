@@ -11,10 +11,12 @@ const ContactCard =(props)=>{
                 {name}
                 </div>
                 <div>{email}</div>
+               
             </div>
-            <i className="trash alternate outline icon"
-                style={{color : "red", marginTop : "10px" }}></i>
-          
+            <div className="right floated content">
+                    <i className="trash alternate outline icon"
+                    style={{color : "red", marginTop : "10px" }}></i>
+                </div>
         </div>
     )
 };
