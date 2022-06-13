@@ -23,7 +23,6 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts));
   }, [contacts]);
 
-
   return (
     <div className="ui container">
       <Header />
